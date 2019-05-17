@@ -31,6 +31,7 @@ homebrew_installed_packages:
   - bpm-tools
   - cfssl
   - cmake
+  - credstash
   - ddrescue
   - dos2unix
   - emacs
@@ -41,7 +42,6 @@ homebrew_installed_packages:
   - figlet
   - fpp
   - fzf
-  - https://raw.githubusercontent.com/winebarrel/gcredstash/master/homebrew/gcredstash.rb
   - ghostscript
   - glide        # go package manager
   - gnu-sed
