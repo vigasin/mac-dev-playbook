@@ -308,7 +308,7 @@ homebrew_cask_apps:
   - xquartz
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: [
+mas_installed_apps:
   - { id: "409183694", name: "Keynote"}
   - { id: "405399194", name: "Kindle"}
   - { id: "565098519", name: "Durak"}
@@ -326,7 +326,6 @@ mas_installed_apps: [
   - { id: "406825478", name: "Telephone"}
   - { id: "715768417", name: "Microsoft Remote Desktop"}
   - { id: "1178295426", name: "Colibri"}
-]
 
 mas_email: ""
 mas_password: ""
