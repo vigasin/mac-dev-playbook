@@ -1,0 +1,338 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: yes
+configure_sudoers: yes
+configure_terminal: yes
+configure_osx: yes
+
+dotfiles_repo: https://github.com/vigasin/dotfiles.git
+dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_local_destination: ~/.ansible-downloads/dotfiles
+dotfiles_files:
+  - .gitconfig
+  - .tmux.conf
+  - .osx
+  - .vimrc
+
+homebrew_installed_packages:
+  - aalib
+  - adns
+  - amazon-ecs-cli
+  - ansible
+  - aom
+  - asciinema
+  - aspcud
+  - autoconf
+  - automake
+  - aview
+  - awscli
+  - awslogs
+  - axel
+  - bash-completion
+  - bbe
+  - binwalk
+  - blackbox
+  - boost
+  - boost-python
+  - bpm-tools
+  - c-ares
+  - cabal-install
+  - cairo
+  - camlp4
+  - cfssl
+  - clasp
+  - clingo
+  - cmake
+  - d-bus
+  - dbus
+  - ddrescue
+  - dos2unix
+  - emacs
+  - enscript
+  - ent
+  - fdupes
+  - ffmpeg
+  - figlet
+  - flac
+  - fltk
+  - fontconfig
+  - fpp
+  - freetype
+  - frei0r
+  - fribidi
+  - fzf
+  - gcc
+  - gcredstash
+  - gd
+  - gdbm
+  - geoip
+  - gettext
+  - ghc
+  - ghc@8.0
+  - ghostscript
+  - giflib
+  - git-review
+  - glib
+  - glide
+  - gmp
+  - gnu-getopt
+  - gnu-sed
+  - gnu-tar
+  - gnupg
+  - gnutls
+  - go
+  - goaccess
+  - gopass
+  - gpg-agent
+  - graphite2
+  - graphviz
+  - gringo
+  - harfbuzz
+  - highlight
+  - hledger
+  - htop
+  - httpie
+  - hub
+  - hugo
+  - icu4c
+  - id3lib
+  - id3v2
+  - iftop
+  - ilmbase
+  - imagemagick
+  - iperf
+  - iperf3
+  - ipmitool
+  - isl
+  - jansson
+  - jemalloc
+  - jpeg
+  - jpeg-turbo
+  - jq
+  - kompose
+  - kops
+  - kubernetes-cli
+  - kubernetes-helm
+  - lame
+  - ledger
+  - leptonica
+  - libao
+  - libass
+  - libassuan
+  - libbluray
+  - libde265
+  - libev
+  - libevent
+  - libffi
+  - libgcrypt
+  - libgpg-error
+  - libheif
+  - libid3tag
+  - libidn2
+  - libksba
+  - libmaxminddb
+  - libmp3splt
+  - libmpc
+  - libogg
+  - libomp
+  - libpng
+  - libsamplerate
+  - libsmi
+  - libsndfile
+  - libsoxr
+  - libssh
+  - libtasn1
+  - libtiff
+  - libtool
+  - libunistring
+  - libusb
+  - libvorbis
+  - libvpx
+  - libxml2
+  - libyaml
+  - little-cms2
+  - lolcat
+  - lua
+  - lua@5.1
+  - mas
+  - mad
+  - makedepend
+  - memcached
+  - mercurial
+  - mobile-shell
+  - mono
+  - mosh
+  - mp3gain
+  - mp3splt
+  - mpfr
+  - mpg123
+  - mysql
+  - mysql-connector-c
+  - ncdu
+  - ncftp
+  - ncurses
+  - nettle
+  - nghttp2
+  - ninja
+  - nmap
+  - node
+  - normalize
+  - npth
+  - ocaml
+  - ocamlbuild
+  - oniguruma
+  - opam
+  - opencore-amr
+  - openexr
+  - openjpeg
+  - openssl
+  - openssl@1.1
+  - opus
+  - opusfile
+  - p11-kit
+  - p7zip
+  - packer
+  - pandoc
+  - parallel
+  - pass
+  - pcre
+  - pcre2
+  - phantomjs
+  - pigz
+  - pinentry
+  - pixman
+  - pkg-config
+  - protobuf
+  - pssh
+  - pth
+  - pv
+  - pyenv
+  - python
+  - python3
+  - python@2
+  - qrencode
+  - rbenv
+  - readline
+  - reattach-to-user-namespace
+  - rig
+  - rkflashtool
+  - rsync
+  - rtmpdump
+  - rubberband
+  - ruby
+  - ruby-build
+  - sdl2
+  - shared-mime-info
+  - shellcheck
+  - shntool
+  - shyaml
+  - smlnj
+  - snappy
+  - socat
+  - sox
+  - speex
+  - sphinx-doc
+  - sqlite
+  - ssdeep
+  - ssh-copy-id
+  - swagger-codegen
+  - terraform
+  - terraform-inventory
+  - terraform_landscape
+  - terragrunt
+  - tesseract
+  - texi2html
+  - the_silver_searcher
+  - theora
+  - tiger-vnc
+  - timidity
+  - tmux
+  - tokyo-cabinet
+  - tree
+  - ucl
+  - unbound
+  - unison
+  - universal-ctags
+  - unrar
+  - upx
+  - watch
+  - watchman
+  - webp
+  - wget
+  - wireshark
+  - wrk
+  - x264
+  - x265
+  - xmlstarlet
+  - xvid
+  - xz
+  - yasm
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - aerial
+  - chromedriver
+  - docker
+  - dropbox
+  - emacs
+  - filebot
+  - firefox
+  - google-chrome
+  - google-cloud-sdk
+  - googleappengine
+  - keybase
+  - limechat
+  - minikube
+  - osxfuse
+  - qlcolorcode
+  - qlimagesize
+  - qlmarkdown
+  - qlstephen
+  - qlvideo
+  - quicklook-json
+  - quicklookase
+  - r-app
+  - rstudio
+  - skitch
+  - suspicious-package
+  - vagrant
+  - virtualbox
+  - vnc-viewer
+  - webpquicklook
+  - wireshark
+  - xquartz
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps: []
+mas_email: ""
+mas_password: ""
+
+osx_script: "~/.osx --no-restart"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+  # - name: drush
+  #   state: present # present/absent, default: present
+  #   version: "^8.1" # default: N/A
+gem_packages: []
+  # - name: bundler
+  #   state: present # present/absent/latest, default: present
+  #   version: "~> 1.15.1" # default: N/A
+npm_packages: []
+  # - name: webpack
+  #   state: present # present/absent/latest, default: present
+  #   version: "^2.6" # default: N/A
+pip_packages: []
+  # - name: mkdocs
+  #   state: present # present/absent/latest, default: present
+  #   version: "0.16.3" # default: N/A
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
