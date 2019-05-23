@@ -114,20 +114,30 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - "0xed"
   - aerial
+  - alfred
+  - boxcryptor
+  - calibre
   - chromedriver
+  - cyberduck
+  - deezer
+  - djview
   - docker
-  - dropbox
   - emacs
   - filebot
   - firefox
+  - goland
   - google-chrome
   - google-cloud-sdk
   - googleappengine
   - keybase
+  - kdiff3
   - limechat
   - minikube
+  - omnigraffle
   - osxfuse
+  - pycharm
   - qlcolorcode
   - qlimagesize
   - qlmarkdown
@@ -136,15 +146,26 @@ homebrew_cask_apps:
   - quicklook-json
   - quicklookase
   - r-app
+  - resilio-sync
   - rstudio
+  - simplenote
   - skitch
+  - skype
   - suspicious-package
+  - tableplus
+  - teamviewer
+  - tunnelblick
   - vagrant
   - virtualbox
+  - virtualbox-extension-pack
+  - visual-studio
+  - visual-studio-code
+  - vlc
   - vnc-viewer
   - webpquicklook
   - wireshark
   - xquartz
+  - yandex-disk
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
