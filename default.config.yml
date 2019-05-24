@@ -116,8 +116,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - "0xed"
   - aerial
-  - alfred
-  - boxcryptor
+  - "caskroom/homebrew-versions/alfred2"
   - calibre
   - chromedriver
   - cyberduck
@@ -128,6 +127,7 @@ homebrew_cask_apps:
   - filebot
   - firefox
   - goland
+  - google-backup-and-sync
   - google-chrome
   - google-cloud-sdk
   - googleappengine
@@ -208,3 +208,17 @@ pip_packages: []
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
+
+git_mappings:
+  - { repo: "https://github.com/robbyrussell/oh-my-zsh.git", dest: "~/.oh-my-zsh" }
+  - { repo: "https://github.com/vigasin/emacs.d", dest: "~/.emacs.d" }
+  - { repo: "https://github.com/cask/cask", dest: "~/.cask" }
+  - { repo: "https://github.com/powerline/fonts.git", dest: "~/tmp/fonts" }
+  - { repo: "https://github.com/bhilburn/powerlevel9k.git", dest: "~/.oh-my-zsh/custom/themes/powerlevel9k" }
+
+git_commands:
+  - { dir: "~/.emacs.d", cmd: "../.cask/bin/cask install | tr -d '[[:cntrl:]]'" }
+  - { dir: "~/tmp/fonts", cmd: "./install.sh" }
+  - { dir: "~/tmp", cmd: "rm -rf fonts" }
+  - { dir: "~", cmd: "chsh -s /bin/zsh" }
+  - { dir: "~", cmd: "ln -sf \"/Users/ivigasin/Google Drive/AppData/zshrc\" .zshrc" }

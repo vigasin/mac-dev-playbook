@@ -1,0 +1,28 @@
+---
+- name: Debug
+  debug:
+    msg: Pen {{ git_mappings }}
+
+- name: Clone git repositories.
+  git:
+    repo: "{{ item.repo }}"
+    version: master
+    dest: "{{ item.dest }}"
+    accept_hostkey: yes
+    force: yes
+    depth: 1
+    recursive: yes
+    track_submodules: yes
+  with_items: "{{ git_mappings }}"
+  tags:
+    - repos
+  become: no
+
+- name: Post git commands
+  shell: "{{ item.cmd }}"
+  args:
+      chdir: "{{ item.dir }}"
+  tags:
+    - repos
+  with_items: "{{ git_commands }}"
+  become: no
