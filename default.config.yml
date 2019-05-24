@@ -34,7 +34,6 @@ homebrew_installed_packages:
   - credstash
   - ddrescue
   - dos2unix
-  - emacs
   - enscript
   - ent
   - fdupes
@@ -104,7 +103,6 @@ homebrew_installed_packages:
   - upx
   - watch
   - wget
-  - wireshark  
   - wrk          # http server benchmarks
   - xmlstarlet   # xml processing
 
