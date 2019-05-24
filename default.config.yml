@@ -79,6 +79,8 @@ homebrew_installed_packages:
   - pigz
   - pv
   - pyenv
+  - pyenv-virtualenv
+  - pyenv-virtualenvwrapper
   - rbenv
   - reattach-to-user-namespace
   - rig          # Random name/address generator
