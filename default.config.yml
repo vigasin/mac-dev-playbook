@@ -134,7 +134,6 @@ homebrew_cask_apps:
   - iterm2
   - keybase
   - kdiff3
-  - limechat
   - minikube
   - omnigraffle
   - osxfuse
@@ -146,7 +145,6 @@ homebrew_cask_apps:
   - qlvideo
   - quicklook-json
   - quicklookase
-  - r-app
   - resilio-sync
   - rstudio
   - simplenote
@@ -170,19 +168,14 @@ homebrew_cask_apps:
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: "409183694", name: "Keynote"}
   - { id: "405399194", name: "Kindle"}
   - { id: "565098519", name: "Durak"}
   - { id: "747648890", name: "Telegram"}
   - { id: "425955336", name: "Skitch"}
   - { id: "425424353", name: "The Unarchiver"}
   - { id: "443987910", name: "1Password"}
-  - { id: "682658836", name: "GarageBand"}
-  - { id: "404246493", name: "MoneyWell"}
-  - { id: "409203825", name: "Numbers"}
   - { id: "497799835", name: "Xcode"}
   - { id: "1153157709", name: "Speedtest"}
-  - { id: "409201541", name: "Pages"}
   - { id: "408981434", name: "iMovie"}
   - { id: "406825478", name: "Telephone"}
   - { id: "715768417", name: "Microsoft Remote Desktop"}
