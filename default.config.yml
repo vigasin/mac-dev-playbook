@@ -33,6 +33,7 @@ homebrew_installed_packages:
   - cmake
   - credstash
   - ddrescue
+  - dep
   - dos2unix
   - enscript
   - ent
@@ -42,7 +43,6 @@ homebrew_installed_packages:
   - fpp
   - fzf
   - ghostscript
-  - glide        # go package manager
   - gnu-sed
   - gnu-tar
   - goaccess     # parse webserver logs
