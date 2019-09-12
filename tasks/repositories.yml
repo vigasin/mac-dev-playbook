@@ -21,6 +21,7 @@
 - name: Post git commands
   shell: "{{ item.cmd }}"
   args:
+      executable: "/bin/bash"
       chdir: "{{ item.dir }}"
   tags:
     - repos

@@ -49,6 +49,7 @@ homebrew_installed_packages:
   - gnu-tar
   - goaccess     # parse webserver logs
   - gopass       # pass in go
+  - gossm
   - highlight    # source code formatter
   - hledger
   - htop
@@ -92,7 +93,6 @@ homebrew_installed_packages:
   - shellcheck
   - shntool      # WAVE audio processing
   - shyaml
-  - smlnj
   - socat
   - sox
   - ssh-copy-id
@@ -114,6 +114,7 @@ homebrew_installed_packages:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - gjbae1212/gossm
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -139,7 +140,7 @@ homebrew_cask_apps:
   - keybase
   - kdiff3
   - minikube
-  - omnigraffle
+#  - omnigraffle
   - osxfuse
   - pycharm
   - qlcolorcode
@@ -153,6 +154,7 @@ homebrew_cask_apps:
   - rstudio
   - simplenote
   - skitch
+  - smlnj
   - skype
   - suspicious-package
   - tableplus
@@ -232,3 +234,4 @@ go_packages:
   - github.com/sspinc/terraform-provider-credstash
   - github.com/squat/terraform-provider-vultr
   - github.com/nbering/terraform-provider-ansible
+  - github.com/omerh/awsctl
