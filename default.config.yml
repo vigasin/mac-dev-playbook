@@ -139,6 +139,7 @@ homebrew_cask_apps:
   - iterm2
   - keybase
   - kdiff3
+  - mactex
   - minikube
 #  - omnigraffle
   - osxfuse
