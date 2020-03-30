@@ -81,6 +81,7 @@ homebrew_installed_packages:
   - pass         # gpg based password manager
   - pigz
   - plantuml
+  - putty
   - pv
   - pyenv
   - pyenv-virtualenv
