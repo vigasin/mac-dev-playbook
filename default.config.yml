@@ -100,6 +100,7 @@ homebrew_installed_packages:
   - terraform-inventory
   - terraform_landscape
   - terragrunt
+  - tflint
   - the_silver_searcher
   - tiger-vnc
   - timidity
@@ -122,7 +123,7 @@ homebrew_cask_apps:
   - "0xed"
   - adoptopenjdk
   - aerial
-  - "caskroom/homebrew-versions/alfred2"
+  - "caskroom/homebrew-versions/alfred4"
   - calibre
   - chromedriver
   - cyberduck
@@ -143,6 +144,7 @@ homebrew_cask_apps:
   - mactex
   - minikube
 #  - omnigraffle
+  - multipass
   - osxfuse
   - pycharm
   - qlcolorcode
@@ -237,3 +239,4 @@ go_packages:
   - github.com/squat/terraform-provider-vultr
   - github.com/nbering/terraform-provider-ansible
   - github.com/omerh/awsctl
+  - github.com/go-jira/jira/cmd/jira
